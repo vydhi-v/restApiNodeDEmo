@@ -6,7 +6,8 @@ module.exports = (sequelize, DataTypes) => {
         autoIncrement: true
       },
       firstName: DataTypes.STRING,
-      lastName: DataTypes.STRING
+      lastName: DataTypes.STRING,
+      companyName: DataTypes.STRING
     },
     {
       freezeTableName: true,
